@@ -21,18 +21,18 @@ import { user } from './getRandom'
 
 //-------------------------------------------
 
-const users = [
-  { userId: '1', name: 'HEROPY' },
-  { userId: '2', name: 'Neo' },
-  { userId: '3', name: 'Amy' },
-  { userId: '4', name: 'Evans' },
-  { userId: '5', name: 'Patrick' },
-]
+// const users = [
+//   { userId: '1', name: 'HEROPY' },
+//   { userId: '2', name: 'Neo' },
+//   { userId: '3', name: 'Amy' },
+//   { userId: '4', name: 'Evans' },
+//   { userId: '5', name: 'Patrick' },
+// ]
 
-const foundUser = _.find(users, { name: 'Amy' })
-const foundUserIndex = _.findIndex(users, { name: 'Amy'})
-console.log(foundUser)
-console.log(foundUserIndex)
+// const foundUser = _.find(users, { name: 'Amy' })
+// const foundUserIndex = _.findIndex(users, { name: 'Amy'})
+// console.log(foundUser)
+// console.log(foundUserIndex)
 
-_.remove(users, {name:'HEROPY'})
-console.log(users)
+// _.remove(users, {name:'HEROPY'})
+// console.log(users)
